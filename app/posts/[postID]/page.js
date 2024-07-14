@@ -12,7 +12,7 @@ export default async function PostDetailes({params}){
               <h1 style={{textAlign:'center' , marginBottom:'59px'}}>
                  Posts Detailes 
               </h1>
-              <Suspense fallback={<div><h2 style={{textAlign:'center'}}>Lodaing ...</h2></div>}>
+              <Suspense fallback={<div><h2 style={{textAlign:'center'}}>Wait ...</h2></div>}>
               <PageCom postID={postID} />
               </Suspense>
              
